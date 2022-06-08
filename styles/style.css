@@ -11,14 +11,21 @@ body {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .topo {
-    width: 100%;
+    width: 600px;
     height: 92px;
     background-color: #CF2B2B;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.4));
     padding: 0 30px;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 h1 {
@@ -40,4 +47,69 @@ h1 {
     font-size: 18px;
     line-height: 20px;
 
+}
+
+.conteudo {
+    margin: 120px 0 120px 19px;
+}
+
+.prato {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prato h1 {
+    font-size: 26px;
+    color: #333333;
+}
+
+.opcoes {
+    width: 577px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.opcao {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0 0 10px -4px rgba(0,0,0,0.4);
+    padding: 18px 14px;
+    margin-right: 19px;
+}
+
+.opcao img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.opcao-texto {
+    height: 84px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 15px;
+    color: #A6A6A6;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
 }
