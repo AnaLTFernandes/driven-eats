@@ -51,16 +51,20 @@ h1 {
 
 .conteudo {
     margin: 120px 0 120px 19px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.prato {
+.cardapio {
     height: 257px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.prato h1 {
+.cardapio h1 {
     font-size: 26px;
     color: #333333;
 }
