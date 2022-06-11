@@ -144,9 +144,9 @@ button {
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    margin: auto auto;
     border: none;
     background-color: #CBCBCB;
+    font-family: 'Roboto', sans-serif;
 }
 
 .concluirPedido button {
@@ -158,8 +158,8 @@ button {
     box-shadow: inset 0 0 0 5px #32b72f;
 }
 
-.none {
-    display: none;
+a {
+    margin: auto;
 }
 
 .preco ion-icon {
