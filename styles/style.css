@@ -92,6 +92,7 @@ h1 {
     height: 87px;
     border-radius: 4px;
     align-self: center;
+    object-fit: cover;
 }
 
 .opcao-texto {
@@ -117,6 +118,7 @@ h3 {
 .preco {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 h4 {
@@ -147,7 +149,7 @@ button {
     background-color: #CBCBCB;
 }
 
-button:enabled {
+.concluirPedido button {
     background-color: #32B72F;
     font-weight: 700;
 }
@@ -156,15 +158,20 @@ button:enabled {
     box-shadow: inset 0 0 0 5px #32b72f;
 }
 
-.icone {
-    font-size: 16px;
-    background-color: transparent;
-    color: green;
-    border-radius: 50%;
+.none {
+    display: none;
 }
 
-.none {
-   display: none;
+.preco ion-icon {
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: none;
+}
+
+.preco ion-icon.iconeEscolhido {
+    color: green;
+    display: initial;
 }
 
 .favorito {
@@ -180,6 +187,6 @@ button:enabled {
 .favorito p {
     color: goldenrod;
     font-size: 9px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 10px;
 }
