@@ -187,5 +187,5 @@ function enviarMensagem() {
 
     const a = document.querySelector(".telaConcluirPedido a");
 
-    a.href=`https://wa.me/5531993029525?text=${mensagem}`;
+    a.href=`https://wa.me/5531997777333?text=${mensagem}`;
 }
