@@ -1,5 +1,6 @@
 # :fork_and_knife: Driven Eats
 
+![Badge Finalizado](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=success&style=for-the-badge)
 
 Página web de delivery, onde se pode escolher um prato principal, bebida e sobremesa, com envio de pedido automático pelo Whatsapp que agiliza o processo.
 
